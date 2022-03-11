@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;1,400;1,600;1,700&family=Questrial&display=swap');
+
+
+a{
+	text-decoration: none;
+}
+
+#profil{
+	width: 125px;
+ 	height: 125px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+body{
+	background-image: url(https://besthqwallpapers.com/Uploads/19-8-2020/139972/thumb2-internet-networking-blue-networks-background-communication-global-network-concepts.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;	
+	opacity: 90%;
+}
+div{
+	background-color: white;
+ 	text-align: center;
+  	padding: 24px;
+ 	width: 70%;
+ 	margin: 16px auto;
+  	border-radius: 6px;
+  	box-shadow: 1px 1px 5px 2px #000000b5;
+}
+h1, h2, h3, h4{
+	color: grey;
+	height: 25px;
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+}
+p{
+	font-family: 'Questrial', sans-serif;
+	color: black;
+	text-align: center;
+}
+.perso {
+	display: flex;
+	flex-direction: column;
+}
+.logiciels{
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+	padding: 0;
+	list-style: none;
+}
+.competences{
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+	padding: 0;
+	list-style: none;
+}
+.reseaux{
+	padding: 0;
+	list-style: none;
+  	font-size: 40px;
+  	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.menu{
+	font-family: 'Questrial', sans-serif;
+	justify-content: center;
+	list-style-type: none;
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
+}
+
+.menu a{
+	padding: 10px 34px;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+	background-color: white;
+	color:black;
+}
+.menu a:hover{
+	background-color: grey;
+	background-size:10px ; 
+	transition: 1s;
+}
+.activites{
+	font-family: 'Questrial', sans-serif;
+	flex-direction: row;
+	display: flex;
+}
+.activities div{
+	background-color: none;
+ 	text-align: center;
+  	padding: 24px;
+ 	width: 70%;
+ 	margin: 16px auto;
+  	border-radius: none;
+  	box-shadow: none;
+}
+#avion{
+	width: 125px;
+	height: 125px;
+}
+#crossfit{
+	width: 125px;
+	height: 125px;
+}
+#musee{
+	width: 125px;
+	height: 125px;
+}
